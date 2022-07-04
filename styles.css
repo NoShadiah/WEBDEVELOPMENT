@@ -37,7 +37,8 @@ button{
 p{
     text-align: center;
      font-size: 14px;
-     color: azuress;
+     color: rgb(225, 221, 221);
+     font-family:'Times New Roman', Times, serif ;
 }
 img{
     width:350px;
@@ -48,5 +49,16 @@ img{
 footer{
     background-color: rgb(38, 143, 218); 
     color: rgb(241, 242, 243);
+    text-align: left;
+}
+table{
+    font-size: large;
+    
+}
+th{
+    font-style: initial;
+    text-align: center;
+}
+td{
     text-align: left;
 }
