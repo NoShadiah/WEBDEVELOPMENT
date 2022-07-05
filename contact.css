@@ -13,7 +13,7 @@ h1{
     font-size: 80px;
 }
 
-div1{
+.navigations{
     text-align: right;
      border-radius: 0px; 
      background-color: rgb(36, 126, 200);
@@ -21,10 +21,10 @@ div1{
      flex-direction: row; 
      justify-content:space-evenly
 }
-div2{
+.Title{
     color:rgb(213, 227, 231);
 }
-div3{
+.short-note{
     margin-top: 0px;
 }
 a{
@@ -50,7 +50,7 @@ footer{
     background-color: rgb(38, 143, 218); 
     color: rgb(241, 242, 243);
     text-align: left;
-}
+}m
 table{
     font-size: large;
     
@@ -58,6 +58,7 @@ table{
 th{
     font-style: initial;
     text-align: center;
+    color: rgb(27, 29, 31);
 }
 td{
     text-align: left;
