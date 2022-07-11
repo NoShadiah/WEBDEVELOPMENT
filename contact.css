@@ -1,0 +1,63 @@
+body{
+    background-image: url("https://fireart.studio/wp-content/uploads/2018/06/dribble-perfect.gif");
+    background-size: auto; 
+    text-align: center;
+    font-size: x-large;
+}
+section{
+    border:80px;
+}.
+.navigations{
+    text-align: right;
+     border-radius: 0px; 
+     background-color: rgb(36, 126, 200);
+     display: flex; 
+     flex-direction: row; 
+     justify-content:space-evenly
+}
+.Contact-us{
+    color:rgb(213, 227, 231);
+}
+.form{
+    background-size: 500px;
+    background-color: rgb(6, 114, 247);
+}
+.top-link{
+    background-color: rgb(2, 118, 180);
+}
+a{
+    text-decoration:none; 
+    color: whitesmoke;
+}
+button{
+    padding: 10px;
+}
+p{
+    text-align: center;
+     font-size: 14px;
+     color: rgb(225, 221, 221);
+     font-family:'Times New Roman', Times, serif ;
+}
+img{
+    width:350px;
+    height:200px;
+    margin-top: 20px; 
+    border-radius: 700px;
+}
+footer{
+    background-color: rgb(38, 143, 218); 
+    color: rgb(241, 242, 243);
+    text-align: left;
+}m
+table{
+    font-size: large;
+    
+}
+th{
+    font-style: initial;
+    text-align: center;
+    color: rgb(27, 29, 31);
+}
+td{
+    text-align: left;
+}
