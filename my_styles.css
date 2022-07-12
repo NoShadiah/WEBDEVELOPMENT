@@ -1,26 +1,9 @@
+/* over-all styles */
 body{
     background-image: url("https://fireart.studio/wp-content/uploads/2018/06/dribble-perfect.gif"); 
     text-align: center;
     font-size: x-large;
 }
-#home_bodY{
-    background-size: cover;
-}
-#about_body{
-    background-size: 300px;
-}
-#contact_body{
-    background-size: 200px;
-}
-section{
-    border:80px;
-}
-
-h1{
-    margin-top: 80px;
-    font-size: 80px;
-}
-
 .navigations{
     text-align: right;
      border-radius: 0px; 
@@ -29,33 +12,6 @@ h1{
      flex-direction: row; 
      justify-content:space-evenly
 }
-.Title{
-    color:rgb(213, 227, 231);
-}
-.short-note{
-    margin-top: 0px;
-}
-.Contact-us{
-    color:rgb(213, 227, 231);
-}
-.form{
-    background-size: 500px;
-    background-color: rgb(133, 181, 240);
-    text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.about-p{
-    margin-top: 50px; 
-    text-align: center;
-}
-#about-h1{
-    text-align:center;
-    color:rgb(213, 227, 231);
-}
-.top-link{
-    background-color: rgb(2, 118, 180);
-}
 a{
     text-decoration:none; 
     color: whitesmoke;
@@ -63,12 +19,69 @@ a{
 button{
     padding: 10px;
 }
+h1{
+    margin-top: 80px;
+    font-size: 80px;
+}
 p{
-    text-align: center;
-     font-size: 14px;
-     color: rgb(225, 221, 221);
+    text-align: left;
      font-family:'Times New Roman', Times, serif ;
 }
+.top-link{
+    background-color: rgb(18, 20, 21);
+}
+/* other home styles */
+#home_bodY{
+    background-size: cover;
+}
+/* other styles for about-us */
+#about_body{
+    background-size: 335px;
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 200px;
+    
+}
+#about-h1{
+    text-align:center;
+    color:rgb(213, 227, 231);
+}
+#about-p{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(209, 224, 233);
+}
+.Title{
+    color:rgb(213, 227, 231);
+}
+.short-note{
+    margin-top: 0px;
+}
+/* other styles for contact us*/
+#contact_body{
+    background-size: 200px;
+    text-align: left;
+}
+
+.Contact-us{
+    color:rgb(213, 227, 231);
+}
+.form{
+    background-size: 500px;
+    background-color: rgb(93, 146, 210);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+}
+.Contact-us{
+    font-size:20px; 
+    color: rgb(182, 223, 239);
+}
+#contact_head{
+    font-size: 35px;
+}
+
 img{
     width:350px;
     height:200px;
@@ -92,11 +105,3 @@ th{
 td{
     text-align: left;
 }
-
-
-
-
-
-
-
-/*
