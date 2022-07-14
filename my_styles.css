@@ -53,9 +53,11 @@ p{
 }
 .Title{
     color:rgb(213, 227, 231);
+    text-align: left;
 }
 .short-note{
     margin-top: 0px;
+    color: rgb(181, 173, 173);
 }
 /* other styles for contact us*/
 #contact_body{
@@ -69,9 +71,9 @@ p{
 .form{
     background-size: 500px;
     background-color: rgb(93, 146, 210);
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 500px;
     color: black;
 }
 .Contact-us{
@@ -87,6 +89,7 @@ img{
     height:200px;
     margin-top: 20px; 
     border-radius: 700px;
+    float: right;
 }
 footer{
     background-color: rgb(38, 143, 218); 
