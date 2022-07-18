@@ -38,8 +38,7 @@ p{
 #about_body{
     background-size: 335px;
     text-align: left;
-    margin-left: 60px;
-    margin-right: 200px;
+    
     
 }
 #about-h1{
@@ -57,7 +56,21 @@ p{
 }
 .short-note{
     margin-top: 0px;
-    color: rgb(181, 173, 173);
+    color: rgb(247, 250, 252);
+}
+#web{
+    image-rendering: crisp-edges;
+}
+#images{
+    width:350px;
+    height:200px;
+    margin-top: 0px; 
+    border-radius: 700px;
+    float: right;
+    }
+#ourselves{
+    margin-left: 20px;
+    margin-right: 500px;
 }
 /* other styles for contact us*/
 #contact_body{
@@ -73,7 +86,7 @@ p{
     background-color: rgb(93, 146, 210);
     text-align: justify;
     margin-left: 50px;
-    margin-right: 500px;
+    margin-right: 550px;
     color: black;
 }
 .Contact-us{
@@ -86,8 +99,7 @@ p{
 
 img{
     width:350px;
-    height:200px;
-    margin-top: 20px; 
+    height:200px; 
     border-radius: 700px;
     float: right;
 }
@@ -95,6 +107,10 @@ footer{
     background-color: rgb(38, 143, 218); 
     color: rgb(241, 242, 243);
     text-align: left;
+}
+.IMG img{
+    position: relative;
+    left: 650px;
 }
 table{
     font-size: large;
