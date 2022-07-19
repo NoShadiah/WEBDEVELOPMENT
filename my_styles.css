@@ -30,6 +30,15 @@ p{
 .top-link{
     background-color: rgb(18, 20, 21);
 }
+.body{
+    
+    color: #ffff;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-column: 2;
+    grid-row: 1;
+   
+}
 /* other home styles */
 #home_bodY{
     background-size: cover;
@@ -46,13 +55,12 @@ p{
     color:rgb(213, 227, 231);
 }
 #about-p{
-    text-align: left;
     font-size: 20px;
     color: rgb(209, 224, 233);
 }
 .Title{
     color:rgb(213, 227, 231);
-    text-align: left;
+    text-align: center;
 }
 .short-note{
     margin-top: 0px;
@@ -64,14 +72,13 @@ p{
 #images{
     width:350px;
     height:200px;
-    margin-top: 0px; 
+    margin: auto; 
     border-radius: 700px;
     float: right;
     }
 #ourselves{
-    margin-left: 20px;
-    margin-right: 500px;
-}
+        margin:auto;
+    }
 /* other styles for contact us*/
 #contact_body{
     background-size: 200px;
@@ -88,6 +95,7 @@ p{
     margin-left: 50px;
     margin-right: 550px;
     color: black;
+    text-align: center;
 }
 .Contact-us{
     font-size:20px; 
@@ -107,6 +115,16 @@ footer{
     background-color: rgb(38, 143, 218); 
     color: rgb(241, 242, 243);
     text-align: left;
+}
+.top-link{
+    text-align: right;
+     border-radius: 0px; 
+     background-color: rgb(36, 126, 200);
+     display: flex; 
+     flex-direction: column; 
+     justify-content:space-evenly
+    
+
 }
 .IMG img{
     position: relative;
